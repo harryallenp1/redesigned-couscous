@@ -1,0 +1,7 @@
+This is a basic Ping Pong game written in HTML5 and JavaScript, which can be played in a web browser. The game consists of two paddles and a ball, and the objective is to use the paddle to hit the ball back and forth, without letting it go past the paddle. The player controls one paddle, while the other paddle is controlled by the computer.
+
+The game is designed to be played on a canvas element that fills the entire screen. The player's paddle is moved up and down using the up and down arrow keys, while the computer-controlled paddle moves automatically based on the position of the ball. The ball bounces off the paddles and the walls of the canvas, and when it goes past a paddle, the other player scores a point. The first player to reach a certain number of points (usually 11 or 21) wins the game.
+
+The code uses basic JavaScript functions such as Math.random(), Math.cos(), and Math.sin() to calculate the movement of the ball, and it also includes some helper functions to check for collisions between the ball and the paddles. The code is structured into separate objects for the player, the computer, and the ball, each with their own update and draw functions.
+
+The game is not very sophisticated, but it provides a good example of how to create a simple game using HTML5 and JavaScript.
